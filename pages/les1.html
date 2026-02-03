@@ -4,35 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styling/les1.css">
-    <title>Document</title>
+    <title>Les 1: Semantiek</title>
 </head>
 <body>
     <h1>Les1: Semantiek</h1>
     <main>
-        <div class="semantiek-content">
-            <section class="semantiek-card">
-                <h2>Sectioning content elementen</h2>
-                <div class="text-content">
-                    <p>Sectioning elementen duiden de structuur aan van een html document,
-                       deze elementen moeten voorzien worden van een titel.</p>
-                    <p><span class="tags">&lt;article&gt;</span>: Duidt een gebied met inhoud aan dat (volledig) op zichzelf staat binnen de scope van de website, !let op! we gebruiken GEEN geneste articles </p>
-                    <p><span class="tags">&lt;section&gt;</span>: Algemeen sectioning content element, zonder verdere specifieke betekenis, vaak een onderdeek van een article </p>
-                    <p><span class="tags">&lt;nav&gt;</span>: Duidt een gebied met inhoud aan waarbinnen belangrijke navigatie voorzien wordt,Niet elke hyperlink moet dus in een nav-element geplaatst worden, Gebruik dit niet in de footer of voor gewone lijsten met hyperlinks.</p>
-                    <p><span class="tags">&lt;asside&gt;</span>:Duidt een gebied met inhoud aan dat indirect inhoudelijk gerelateerd is aan de omliggende inhoud, maar kan weggelaten worden (bv bij kleinere schermen) zonder dat de omliggende inhoud aan betekenis inboet!</p>
-                    <p><span class="tags">&lt;body&gt;</span>:Behoort tot de basisstructuur van een HTML-document (één per HTML-document),Moet dus ook van een heading element voorzien worden</p>
-                </div>
-            </section>
-            <section class="semantiek-card">
-                <h2>Structurele flow elementen</h2>
-                <div class="text-content">
-                    <p>Structurele flow-elementen zijn HTML-elementen die de logische volgorde en indeling van de pagina bepalen</p>
-                    <p><span class="tags">&lt;header&gt;</span>:Bevat inleidende informatie over de dichtstbijzijnde bovenliggende sectioning content of root. </p>
-                    <p><span class="tags">&lt;footer&gt;</span>:Markeert de afsluiting voor de dichtstbijzijnde sectioning content of root,Bijvoorbeeld: bij een nieuws- of blog artikel wordt de auteur en publicatie datum vermeld </p>
-                    <p><span class="tags">&lt;main&gt;</span>:Duidt een gebied met inhoud aan dat de hoofdinhoud van de pagina bevat!,De algemene header, footer en navigatie horen hier niet in thuis,Moet verplicht 1 maal aanwezig zijn!</p>
-                    <p><span class="tags">&lt;figure&gt;</span>:Duidt op zichzelf staande inhoud aan (bv. tabel, diagram/schema, illustratie/afbeelding, code-snippet…) die de omliggende inhoud meer betekenis (/verduidelijking) geeft</p>
-                </div>
-            </section>
-        </div>
+        <article class="elementen-artikel">
+            <h2>Soorten elementen</h2>
+            <div class="semantiek-content">
+                <section class="semantiek-card">
+                    <h3>Sectioning content elementen</h3>
+                    <div class="text-content">
+                        <p>Sectioning elementen duiden de structuur aan van een HTML-document, deze elementen moeten voorzien worden van een titel.</p>
+                        <p><span class="tags">&lt;article&gt;</span>: Duidt een gebied met inhoud aan dat (volledig) op zichzelf staat binnen de scope van de website, !let op! we gebruiken GEEN geneste articles.</p>
+                        <p><span class="tags">&lt;section&gt;</span>: Algemeen sectioning content element, zonder verdere specifieke betekenis, vaak een onderdeel van een article.</p>
+                        <p><span class="tags">&lt;nav&gt;</span>: Duidt een gebied met inhoud aan waarbinnen belangrijke navigatie voorzien wordt. Niet elke hyperlink moet dus in een nav-element geplaatst worden.</p>
+                        <p><span class="tags">&lt;aside&gt;</span>: Duidt een gebied aan dat indirect inhoudelijk gerelateerd is aan de omliggende inhoud, maar kan weggelaten worden zonder dat de omliggende inhoud aan betekenis verliest.</p>
+                        <p><span class="tags">&lt;body&gt;</span>: Behoort tot de basisstructuur van een HTML-document (één per document), moet ook van een heading voorzien worden.</p>
+                    </div>
+                </section>
+                <section class="semantiek-card">
+                    <h3>Structurele flow elementen</h3>
+                    <div class="text-content">
+                        <p>Structurele flow-elementen zijn HTML-elementen die de logische volgorde en indeling van de pagina bepalen.</p>
+                        <p><span class="tags">&lt;header&gt;</span>: Bevat inleidende informatie over de dichtstbijzijnde bovenliggende sectioning content of root.</p>
+                        <p><span class="tags">&lt;footer&gt;</span>: Markeert de afsluiting voor de dichtstbijzijnde sectioning content of root.</p>
+                        <p><span class="tags">&lt;main&gt;</span>: Duidt een gebied aan dat de hoofdinhoud van de pagina bevat.</p>
+                        <p><span class="tags">&lt;figure&gt;</span>: Duidt op zichzelf staande inhoud aan (bv. tabel, diagram, illustratie, code-snippet) die de omliggende inhoud verduidelijkt.</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <article class="lijst-artikel">
+            <h2>Soorten lijsten</h2>
+            <div class="lijst-content">
+                <section class="lijst-card">
+                    <h3>Unordered list</h3>
+                </section>
+                <section class="lijst-card">
+                    <h3>Ordered list</h3>
+                </section>
+                <section class="lijst-card">
+                    <h3>Description list</h3>
+                </section>
+            </div>
+        </article>
     </main>
 </body>
 </html>
