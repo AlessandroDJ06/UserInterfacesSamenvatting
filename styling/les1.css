@@ -33,6 +33,14 @@ p {
     color: rgb(86, 156, 214);
 }
 
+.href {
+    color: rgb(156, 220, 254);
+}
+
+.string{
+    color: rgb(206, 145, 120);
+}
+
 .semantiek-content,
 .lijst-content {
     display: flex;
@@ -42,8 +50,7 @@ p {
     gap: 1.5rem;
 }
 
-.semantiek-card,
-.lijst-card {
+.semantiek-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +59,17 @@ p {
     padding: 1rem;
     border: 4px solid rgba(255, 255, 255, 0.5);
     max-width: 600px; 
+}
+
+.lijst-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(39, 37, 37);
+    border-radius: 10px;
+    padding: 1rem;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    max-width: 400px; 
 }
 
 .text-content {
